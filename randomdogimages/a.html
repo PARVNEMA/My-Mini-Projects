@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Random Dog</title>
+</head>
+<body>
+    <div id="container">
+        <img id="image"/>
+      <button id="button" onclick="get_random_dog_image()"> Random </button>
+    </div>
+</body>
+<style>
+    body{
+      background-color:#f1e7b6;
+      display:flex;
+      justify-content:center;
+    }
+
+    #container{
+      width:50%;
+      height:680px;
+      background-color:#400082;
+    }
+    #image{
+      width:100%;
+      height:500px;
+      border:5px solid #fff;
+      box-sizing: border-box;
+    }
+    
+    #button{
+        width:200px;
+        height:50px;
+        float:left;
+        margin-left:240px;
+        border:none;
+        outline:none;
+        border-radius: 10px;
+        cursor:pointer;
+        background-color:#fff;
+        color:#000;
+    }
+
+    </style>
+    <script src="script.js"></script>
+</html>
+
